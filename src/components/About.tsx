@@ -53,7 +53,7 @@ const About: React.FC = () => {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
                   </div>
-                  <a href="https://mail.google.com/mail/u/0/#advanced-search/to=office%40shopfather.ge&query=in%3Asent&isrefinement=true&todisplay=ivanfrilancan%40gmail.com?compose=new" className="text-gray-300 hover:text-white">ivanfrilancan@gmail.com</a>
+                  <a href="https://mail.google.com/mail/u/0/#advanced-search/to=office%40shopfather.ge&query=in%3Asent&isrefinement=true&todisplay=ivanfrilancan%40gmail.com?compose=new" target="_blank" className="text-gray-300 hover:text-white">ivanfrilancan@gmail.com</a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="text-blue-500">
