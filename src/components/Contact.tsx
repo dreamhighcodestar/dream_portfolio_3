@@ -109,8 +109,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-white font-medium">Email</h3>
-                  <a href="https://mail.google.com/mail/u/0/#advanced-search/to=office%40shopfather.ge&query=in%3Asent&isrefinement=true&todisplay=ivanfinan%40gmail.com?compose=new" target="_blank" className="text-gray-400 hover:text-blue-400 transition-colors">
-                    ivanfinan@gmail.com
+                  <a href="https://mail.google.com/mail/u/0/#advanced-search/to=office%40shopfather.ge&query=in%3Asent&isrefinement=true&todisplay=ivanfrilancan%40gmail.com?compose=new" target="_blank" className="text-gray-400 hover:text-blue-400 transition-colors">
+                  ivanfrilancan@gmail.com
                   </a>
                 </div>
               </div>
