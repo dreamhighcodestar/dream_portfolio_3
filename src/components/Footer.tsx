@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Github, Linkedin, Send } from 'lucide-react';
+import { Linkedin, Send, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -15,8 +14,8 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex space-x-6">
-            <a href="" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
-              <Github className="w-6 h-6" />
+            <a href="tel:+380638709335" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <MessageCircle className="w-6 h-6" />
             </a>
             <a href="https://www.linkedin.com/in/ivan-tereshchenko-114593284" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Linkedin className="w-6 h-6" />
