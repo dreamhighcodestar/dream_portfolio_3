@@ -14,7 +14,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
               <AnimatedImage 
-                src="/portfolio-uploads/photo/image_2.png" 
+                src="/portfolio-uploads/photo/image_4.png" 
                 alt="Ivan at work" 
                 className="w-full h-auto"
               />

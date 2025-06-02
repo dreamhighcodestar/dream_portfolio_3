@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-20 blur-2xl"></div>
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-blue-500/20">
                 <AnimatedImage 
-                  src="/portfolio-uploads/photo/face-swap_1.png" 
+                  src="/portfolio-uploads/photo/face-swap_2.png" 
                   alt="Ivan Tereshchenko"
                   className="rounded-full"
                 />
