@@ -41,16 +41,10 @@ const About: React.FC = () => {
               </p>
 
               <div className="flex flex-wrap gap-12 pt-4 justify-center ">
-                <Button
-                  className="w-40 bg-blue-600 hover:bg-blue-700 text-white font-medium h-10"
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                >
-                  Get in touch
-                </Button>
                 
                 <Button
-                  variant="outline"
-                  className="w-40 border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-medium h-10"
+                  variant="secondary"
+                  className="w-60 border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-medium h-10"
                   onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                 >
                   View my work
@@ -58,7 +52,7 @@ const About: React.FC = () => {
 
                 <Button
                   variant="secondary"
-                  className="flex items-center bg-blue-950/50 hover:bg-blue-900/60 font-medium h-10"
+                  className="w-60 flex items-center bg-blue-950/50 hover:bg-blue-900/60 font-medium h-10"
                   onClick={() => window.open('/resume.pdf', '_blank')}
                 >
                   <Download size={18} />

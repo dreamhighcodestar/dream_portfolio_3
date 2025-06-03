@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { Tabs, TabsContent } from '@/components/ui/tabs';
 import ProjectsFilter from './projects/ProjectsFilter';
 import ProjectsGrid from './projects/ProjectsGrid';
-import ViewMoreButton from './projects/ViewMoreButton';
-import FeaturedProjects from './projects/FeaturedProjects';
 import { projects } from '@/data/projectsData';
 
 const Projects: React.FC = () => {
@@ -52,12 +50,7 @@ const Projects: React.FC = () => {
         </div>
 
         <ProjectsGrid projects={filteredProjects} />
-        
-        <ViewMoreButton />
       </div>
-
-      {/* Featured Projects Carousel */}
-      <FeaturedProjects projects={projects} />
     </section>
   );
 };

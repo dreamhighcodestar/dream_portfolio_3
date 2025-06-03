@@ -10,10 +10,7 @@ import { projects } from '@/data/projectsData';
 
 const Hero: React.FC = () => {
   return (
-
-      <FeaturedProjects projects={projects} />
-
-      
+    <FeaturedProjects projects={projects} />
   );
 };
 
