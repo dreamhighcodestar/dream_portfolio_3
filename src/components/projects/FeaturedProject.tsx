@@ -21,7 +21,7 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent flex flex-col justify-end transition-all duration-500 group-hover:from-black/80 group-hover:via-black/40">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-transparent flex flex-col justify-end transition-all duration-500">
             <div className="p-4 md:p-6 transform transition-transform duration-500 group-hover:translate-y-[-4px]">
               <h3 className="text-xl md:text-3xl font-medium text-white mb-3 transition-all duration-300 group-hover:text-blue-300">
                 {project.title.length > 20 ? `${project.title.substring(0, 20)}...` : project.title}
