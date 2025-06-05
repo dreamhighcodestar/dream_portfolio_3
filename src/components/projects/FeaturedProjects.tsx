@@ -34,8 +34,8 @@ const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ projects }) => {
               <FeaturedProject key={project.id} project={project} />
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-1 bg-blue-900/50 border-blue-500/30 hover:bg-blue-800/70" />
-          <CarouselNext className="right-1 bg-blue-900/50 border-blue-500/30 hover:bg-blue-800/70" />
+          <CarouselPrevious className="left-1 top-56 bg-blue-900/50 border-blue-500/30 hover:bg-blue-800/70" />
+          <CarouselNext className="right-1 top-56 bg-blue-900/50 border-blue-500/30 hover:bg-blue-800/70" />
         </Carousel>
       </div>
     </div>

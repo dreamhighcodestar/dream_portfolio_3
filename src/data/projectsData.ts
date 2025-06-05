@@ -2,6 +2,36 @@ import { ProjectType } from '@/types/project';
 
 export const projects: ProjectType[] = [
   {
+    id: 15,
+    title: "Ceras Health AI Platform",
+    description: "The Ceras Health AI Platform is a comprehensive digital health solution designed to empower individuals on their journey to health independence. It offers real-time health monitoring, personalized interventions, and seamless care coordination through an AI-driven, remote patient care system. The platform integrates various technologies to provide an immersive and interactive user experience, facilitating proactive healthcare management.",
+    image: "/portfolio-uploads/projects/15_1.png",
+    myrole: "In 2012, Aeximius SA developed Ceras Health, which has undergone many updates so far. In 2021, a large-scale site update was carried out, and I participated as a freelance front-end developer. My role was to design a customized responsive front-end.",
+    additionalImages: [
+      "/portfolio-uploads/projects/15_2.png",
+      "/portfolio-uploads/projects/15_3.png"
+    ],
+    category: "Front-End",
+    technologies: ["Next.js", "Vue.js", "Tailwind CSS", "SEO"],
+    liveUrl: "https://cerashealth.com",
+    features: ["Remote Patient Monitoring", "AI-Powered Analytics", "Digital Transitions of Care", "Continuous Health Monitoring"]
+  },
+  {
+    id: 16,
+    title: "Marqeta: Modern Card Issuing Platform",
+    description: "Marqeta is a leading fintech company that offers an open API platform for modern card issuing and payment processing. Founded in 2010 by Jason Gardner, Marqeta enables businesses to create, manage, and customize payment cards and programs with speed and flexibility. The platform is designed to simplify payments for businesses, allowing developers to launch new programs efficiently.",
+    image: "/portfolio-uploads/projects/16_1.png",
+    myrole: "While working at Intellias in 2021, I worked with Marqeta's in-house engineering development team to update the site, and my primary role was to contribute to the development project of integrating payments using Typescript on the front-end.",
+    additionalImages: [
+      "/portfolio-uploads/projects/16_2.png",
+      "/portfolio-uploads/projects/16_3.png"
+    ],
+    category: "Front-End",
+    technologies: ["Typrscript", "Python", "RESTful APIs", "OpenAPI 3.0 specifications"],
+    liveUrl: "https://www.marqeta.com",
+    features: ["Open API Platform", "Real-Time Decisioning", "Just-in-Time (JIT) Funding", "Developer Sandbox"]
+  },
+  {
     id: 1,
     title: "EastCorp",
     description: "This website serves as the online presence for EastCorp, a global trading company dedicated to connecting markets and fostering international trade. The site showcases the company's services, product offerings, and contact information.",
@@ -60,9 +90,7 @@ export const projects: ProjectType[] = [
     technologies: ["Shopify", "Liquid ", "Ruby", "GraphQL", "Tailwind CSS"],
     liveUrl: "https://ellbos.com",
     features: ["Personalized Products", "Mobile Shopping Apps", "Eco-Friendly Commitment", "Global Fulfillment with Print-on-Demand"]
-  },
-  ,
-  {
+  }, {
     id: 5,
     title: "Dark Horse – Bold Goods for Modern Living",
     description: "is a Cape Town-based design studio and e-commerce platform specializing in handcrafted furniture, homeware, and leather accessories. Established in 2011 by husband-and-wife duo Jarrad and Lise Nelson, the brand emphasizes timeless design, sustainability, and local craftsmanship. Their offerings include seating, tables, décor, and leather goods, all designed with a modern edge and built to last.",
@@ -77,7 +105,6 @@ export const projects: ProjectType[] = [
     liveUrl: "https://dark-horse.co.za/",
     features: ["Handcrafted Furniture & Homeware", "Leather Accessories", "Sustainable Practices", "Seamless E-commerce Experience"]
   },
-  ,
   {
     id: 6,
     title: "Login Smart Technology – Elevating Mobile Experiences",
@@ -93,7 +120,6 @@ export const projects: ProjectType[] = [
     liveUrl: "https://login.com.pk",
     features: ["Wide Product Range", "Nationwide Availability", "Affordable Pricing", "Convenient Shopping Experience"]
   },
-  ,
   {
     id: 7,
     title: "Nothing But LEDs – Premium LED Lighting Solutions",
@@ -109,7 +135,6 @@ export const projects: ProjectType[] = [
     liveUrl: "https://nothingbutleds.com",
     features: ["Wide Range of LED Products", "Competitive Pricing", "Nationwide Shipping", "Dedicated Customer Support"]
   },
-  ,
   {
     id: 8,
     title: "The Hockey Depot – Your One-Stop Shop for Hockey Equipment",
@@ -125,7 +150,6 @@ export const projects: ProjectType[] = [
     liveUrl: "https://www.thehockeydepot.com",
     features: ["Wide Product Range", "Discounted Prices", "E-commerce Platform", "Team and School Solutions"]
   },
-  ,
   {
     id: 9,
     title: "Angara – Custom Fine Jewelry Crafted Just for You",
@@ -141,7 +165,6 @@ export const projects: ProjectType[] = [
     liveUrl: "https://www.angara.com",
     features: ["Customizable Jewelry", "Vertically Integrated Operations", "Industry Recognition", "Customer-Centric Policies"]
   },
-  ,
   {
     id: 10,
     title: "Brilliant Earth – Ethically Crafted Fine Jewelry",
@@ -157,6 +180,4 @@ export const projects: ProjectType[] = [
     liveUrl: "https://www.brilliantearth.com",
     features: ["Customizable Jewelry", "Ethical Sourcing", "Industry Recognition", "Customer-Centric Policies"]
   }
-    
-  
 ];
