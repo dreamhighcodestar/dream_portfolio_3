@@ -15,7 +15,7 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
   return (
     <CarouselItem className="pl-2 md:pl-4 basis-[100%] md:basis-[90%]">
       <div className="p-2 group">
-        <Card className="overflow-hidden bg-gradient-to-br from-blue-900/30 to-blue-900/10 border border-blue-900/40 h-96 md:h-[28rem] transition-all duration-500 ease-out group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/20 group-hover:border-blue-500/60 transform-gpu">
+        <Card className="overflow-hidden bg-gradient-to-br from-blue-900/30 to-blue-900/10 border border-blue-900/40 h-96 md:h-[28rem] transition-all duration-500 ease-out group-hover:scale-105 group-hover:text-white group-hover:shadow-2xl group-hover:shadow-blue-500/20 group-hover:border-blue-500/60 transform-gpu">
           <a href={project.liveUrl} target="_blank">
             <div className="relative h-full overflow-hidden">
               <img
@@ -32,24 +32,12 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
                       </a>
                     )}
                     {project.liveUrl && (
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex text-blue-400 hover:text-white transition-all duration-300 hover:scale-110">
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex text-[#fff000] hover:text-white transition-all duration-300 hover:scale-110">
                         <Globe size={40} />
-                        <p className="m-2 text-lg">Link Live Demo</p>
+                        <p className="m-2 text-lg">Click Anywhere to Open the Live Demo</p>
                       </a>
                     )}
-                    <div className="flex items-center space-x-10">
-                      <Dialog>
-                        <DialogTrigger asChild>
-                          <button className="text-blue-400 hover:text-blue-300 transition-all duration-300 text-lg flex items-center hover:scale-105 hover:text-white px-2 py-1 rounded">
-                            View Details
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
-                              <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                            </svg>
-                          </button>
-                        </DialogTrigger>
-                        <ProjectDetailsDialog project={project} />
-                      </Dialog>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -58,11 +46,24 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
         </Card>
       </div>
       <div className="px-14 py-6">
-        <h3 className="text-xl md:text-3xl font-medium text-white mb-3 transition-all duration-300 group-hover:text-blue-300">
+        <h3 className="text-xl md:text-3xl font-medium text-blue-400 mb-3 transition-all duration-300 group-hover:text-blue-300">
           {project.title}
         </h3>
         <p className="text-xl text-gray-300 line-clamp-3 mb-4 transition-colors duration-300 group-hover:text-gray-200">{project.description}</p>
-        <p className="text-lg text-gray-400 transition-colors duration-300 group-hover:text-gray-300">{project.technologies.slice(0, 3).join(", ")}</p>
+        <div className="flex justify-between space-x-10">
+          <p className="text-lg text-gray-400 transition-colors duration-300 group-hover:text-gray-300">{project.technologies.slice(0, 3).join(", ")}</p>
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="text-blue-400 hover:text-blue-300 transition-all duration-300 text-lg flex items-center hover:scale-105 hover:text-white px-2 py-1 rounded">
+                View Details
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </button>
+            </DialogTrigger>
+            <ProjectDetailsDialog project={project} />
+          </Dialog>
+        </div>
       </div>
     </CarouselItem>
   );
