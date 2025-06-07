@@ -16,7 +16,7 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
     <CarouselItem className="pl-2 md:pl-4 basis-[100%] md:basis-[90%]">
       <div className="p-2 group">
         <Card className="overflow-hidden bg-gradient-to-br from-blue-900/30 to-blue-900/10 border border-blue-900/40 h-96 md:h-[28rem] transition-all duration-500 ease-out group-hover:scale-105 group-hover:shadow-2xl group-hover:shadow-blue-500/20 group-hover:border-blue-500/60 transform-gpu">
-          <a href={project.githubUrl} target="_blank">
+          <a href={project.liveUrl} target="_blank">
             <div className="relative h-full overflow-hidden">
               <img
                 src={project.image}
