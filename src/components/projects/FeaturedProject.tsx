@@ -33,8 +33,8 @@ const FeaturedProject: React.FC<FeaturedProjectProps> = ({ project }) => {
                     )}
                     {project.liveUrl && (
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex text-[#fff000] hover:text-white transition-all duration-300 hover:scale-110">
-                        <Globe size={40} />
-                        <p className="m-2 text-lg">Click Anywhere to Open the Live Demo</p>
+                        <Globe size={35} />
+                        <p className="my-1 mx-2 text-lg">Click Anywhere to Open the Live Demo</p>
                       </a>
                     )}
 
