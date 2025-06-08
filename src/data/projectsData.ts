@@ -2,6 +2,51 @@ import { ProjectType } from '@/types/project';
 
 export const projects: ProjectType[] = [
   {
+    id: 5,
+    title: "Dark Horse – Bold Goods for Modern Living",
+    description: "is a Cape Town-based design studio and e-commerce platform specializing in handcrafted furniture, homeware, and leather accessories. Established in 2011 by husband-and-wife duo Jarrad and Lise Nelson, the brand emphasizes timeless design, sustainability, and local craftsmanship. Their offerings include seating, tables, décor, and leather goods, all designed with a modern edge and built to last.",
+    image: "/portfolio-uploads/projects/05_1.png",
+    myrole: "Creating responsive and visually appealing interfaces using HTML, CSS, JavaScript, and Liquid (Shopify's templating language).",
+    additionalImages: [
+      "/portfolio-uploads/projects/05_2.png",
+      "/portfolio-uploads/projects/05_3.png"
+    ],
+    category: "CMS & E-commerce",
+    technologies: ["Shopify", "SEO", "Tailwind CSS"],
+    liveUrl: "https://dark-horse.co.za/",
+    features: ["Handcrafted Furniture & Homeware", "Leather Accessories", "Sustainable Practices", "Seamless E-commerce Experience"]
+  },
+  {
+    id: 10,
+    title: "Wakami Global – Handmade Style That Improves Lives",
+    description: "Wakami is a social impact brand that sells ethically handmade accessories crafted by Guatemalan women. The site is designed to blend commerce with storytelling, highlighting the mission, collections, and the artisans behind the brand.",
+    image: "/portfolio-uploads/projects/10_1.png",
+    myrole: "I redesigned the Wakami Global website to highlight its ethical mission and make shopping simple. I improved the product filters and reorganized content to better tell the brand’s story. I also enhanced the site’s speed, responsiveness, and checkout flow to create a smooth, engaging experience on all devices.",
+    additionalImages: [
+      "/portfolio-uploads/projects/10_2.png",
+      "/portfolio-uploads/projects/10_3.png"
+    ],
+    category: "CMS & E-commerce",
+    technologies: ["WooCommerce", "Responsive design"],
+    liveUrl: "https://wakamiglobal.com",
+    features: ["Filterable shop", "Brand storytelling", "Responsive & fast layout", "Impact messaging"]
+  },
+  {
+    id: 6,
+    title: "Login Smart Technology – Elevating Mobile Experiences",
+    description: "This is a fast-growing mobile accessories brand in Pakistan, offering a broad range of quality products such as smartwatches, wireless earbuds, power banks, and chargers. Known for affordable pricing and widespread availability, Login serves millions of customers online and through over 1,000 retail stores nationwide.",
+    image: "/portfolio-uploads/projects/06_1.png",
+    myrole: "Creating responsive and visually appealing interfaces using HTML, CSS, JavaScript, and Liquid (Shopify's templating language).",
+    additionalImages: [
+      "/portfolio-uploads/projects/06_2.png",
+      "/portfolio-uploads/projects/06_3.png"
+    ],
+    category: "CMS & E-commerce",
+    technologies: ["Shopify", "Liquid", "SEO"],
+    liveUrl: "https://login.com.pk",
+    features: ["Wide Product Range", "Nationwide Availability", "Affordable Pricing", "Convenient Shopping Experience"]
+  },
+  {
     id: 15,
     title: "Ceras Health AI Platform",
     description: "The Ceras Health AI Platform is a comprehensive digital health solution designed to empower individuals on their journey to health independence. It offers real-time health monitoring, personalized interventions, and seamless care coordination through an AI-driven, remote patient care system. The platform integrates various technologies to provide an immersive and interactive user experience, facilitating proactive healthcare management.",
@@ -90,35 +135,6 @@ export const projects: ProjectType[] = [
     technologies: ["Shopify", "Liquid ", "Ruby", "GraphQL", "Tailwind CSS"],
     liveUrl: "https://ellbos.com",
     features: ["Personalized Products", "Mobile Shopping Apps", "Eco-Friendly Commitment", "Global Fulfillment with Print-on-Demand"]
-  }, {
-    id: 5,
-    title: "Dark Horse – Bold Goods for Modern Living",
-    description: "is a Cape Town-based design studio and e-commerce platform specializing in handcrafted furniture, homeware, and leather accessories. Established in 2011 by husband-and-wife duo Jarrad and Lise Nelson, the brand emphasizes timeless design, sustainability, and local craftsmanship. Their offerings include seating, tables, décor, and leather goods, all designed with a modern edge and built to last.",
-    image: "/portfolio-uploads/projects/05_1.png",
-    myrole: "Creating responsive and visually appealing interfaces using HTML, CSS, JavaScript, and Liquid (Shopify's templating language).",
-    additionalImages: [
-      "/portfolio-uploads/projects/05_2.png",
-      "/portfolio-uploads/projects/05_3.png"
-    ],
-    category: "CMS & E-commerce",
-    technologies: ["Shopify", "SEO", "Tailwind CSS"],
-    liveUrl: "https://dark-horse.co.za/",
-    features: ["Handcrafted Furniture & Homeware", "Leather Accessories", "Sustainable Practices", "Seamless E-commerce Experience"]
-  },
-  {
-    id: 6,
-    title: "Login Smart Technology – Elevating Mobile Experiences",
-    description: "This is a fast-growing mobile accessories brand in Pakistan, offering a broad range of quality products such as smartwatches, wireless earbuds, power banks, and chargers. Known for affordable pricing and widespread availability, Login serves millions of customers online and through over 1,000 retail stores nationwide.",
-    image: "/portfolio-uploads/projects/06_1.png",
-    myrole: "Creating responsive and visually appealing interfaces using HTML, CSS, JavaScript, and Liquid (Shopify's templating language).",
-    additionalImages: [
-      "/portfolio-uploads/projects/06_2.png",
-      "/portfolio-uploads/projects/06_3.png"
-    ],
-    category: "CMS & E-commerce",
-    technologies: ["Shopify", "Liquid", "SEO"],
-    liveUrl: "https://login.com.pk",
-    features: ["Wide Product Range", "Nationwide Availability", "Affordable Pricing", "Convenient Shopping Experience"]
   },
   {
     id: 7,
@@ -152,32 +168,17 @@ export const projects: ProjectType[] = [
   },
   {
     id: 9,
-    title: "Angara – Custom Fine Jewelry Crafted Just for You",
-    description: "This is a U.S.-based fine jewelry brand specializing in customizable, handcrafted pieces with natural colored gemstones and diamonds. Founded in 2005, Angara manages the entire production process in-house to ensure quality and competitive pricing, and offers a seamless online shopping experience with free express shipping and easy returns.",
+    title: "GLACIAL Bottle – Premium, BPA-Free Bottles & Tumblers",
+    description: "GLACIAL Bottle is a premium Swedish brand focused on high-quality, reusable, and insulated drinkware. The website highlights sustainability, clean Scandinavian design, and offers personalization (engraving) options. It supports international sales and includes B2B features for bulk ordering.",
     image: "/portfolio-uploads/projects/09_1.png",
-    myrole: "Responsible for creating responsive and user-friendly interfaces and customizing and managing the platform to cater to Angara's specific needs.",
+    myrole: "I rebuilt the GLACIAL Bottle website by improving the product personalization features and streamlining the browsing and checkout experience. I optimized the site for fast loading and mobile devices, and added multi-language support to serve a global audience. My work helped showcase the brand’s premium, sustainable image and made the site easy to use for both retail and wholesale customers.",
     additionalImages: [
       "/portfolio-uploads/projects/09_2.png",
       "/portfolio-uploads/projects/09_3.png"
     ],
     category: "CMS & E-commerce",
-    technologies: ["Shopify", "Shopify backend customization", "SEO"],
-    liveUrl: "https://www.angara.com",
-    features: ["Customizable Jewelry", "Vertically Integrated Operations", "Industry Recognition", "Customer-Centric Policies"]
-  },
-  {
-    id: 10,
-    title: "Brilliant Earth – Ethically Crafted Fine Jewelry",
-    description: "This is a San Francisco-based jewelry brand known for ethically sourced and sustainably crafted fine jewelry. They offer customizable engagement rings, wedding bands, and other pieces featuring natural and lab-grown diamonds, with a strong focus on recycled metals and transparency.",
-    image: "/portfolio-uploads/projects/10_1.png",
-    myrole: "Responsible for creating responsive and user-friendly interfaces and customizing and managing the platform to cater to Brilliant Earth's specific needs.",
-    additionalImages: [
-      "/portfolio-uploads/projects/10_2.png",
-      "/portfolio-uploads/projects/10_3.png"
-    ],
-    category: "CMS & E-commerce",
-    technologies: ["Shopify", "React Native", "Liquid", "SEO"],
-    liveUrl: "https://www.brilliantearth.com",
-    features: ["Customizable Jewelry", "Ethical Sourcing", "Industry Recognition", "Customer-Centric Policies"]
+    technologies: ["Woocommerce", "Centra API integration", "Backend Customization"],
+    liveUrl: "https://www.glacialbottle.com",
+    features: ["Visual product catalog", "Engraving/personalization tool", "B2B wholesale portal", "Multilingual & multi-country support"]
   }
 ];
